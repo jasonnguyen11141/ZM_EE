@@ -1,15 +1,25 @@
 
+body{
+    background: #1B1A1A;
+}
+h1{
+    text-align: center;
+    color: white ; 
+}
 .dropdown{
     position: relative;
     display: inline-block;
+    background-color: #FF7400;
 }
-.wawdrop{
+.wawdrop, .bo1drop, .bo2drop, .bo3drop, .bo4drop, .bocwdrop, .bo6drop{
     background-color: #FF7400;
     color: white;
     font-size: 40px;
     border: none;
     width: 198px;
     height: 88px;
+    cursor: pointer;
+
 }
 .wawlist{
     display: none;
@@ -18,13 +28,13 @@
     height: 88px;
     font-size: 27px;
     z-index: 1;
+    
 }
-.wawlist a{
+.wawdrop a, .bo1drop a, .bo2drop a, .bo3drop a, .bo4drop a, .bocwdrop a, .bo6drop a{
     color: white;
     text-align: center;
     text-decoration: none;
     display: block;
-    border: 1px solid black;
     background-color: #FF7400;
 }
 
@@ -32,36 +42,91 @@
     display: block;
     
 }
-.bo1drop{
-    background-color: #FF7400;
-    color: white;
-    font-size: 40px;
-    border: none;
-    width: 198px;
-    height: 88px;
-}
 .bo1list{
     display: none;
     position: absolute;
     width: 198px;
     font-size: 27px;
     background-color: #FF7400;
-    z-index: 1;
+    z-index: -1;
     top: 100%;
     left: 0;
+    padding-left: 202px;
 }
-.bo1list a{
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    border: 1px solid black;
-    background-color: #FF7400;
-}
+
 .dropdown:hover .bo1list{
     display: block;
 }
-
+.bo2list{
+    display: none;
+    position: absolute;
+    width: 198px;
+    font-size: 27px;
+    background-color: #FF7400;
+    z-index: -2;
+    top: 100%;
+    left: 0;
+    padding-left: 404px;
+}
+.dropdown:hover .bo2list{
+    display: block;
+}
+.bo3list{
+    display: none;
+    position: absolute;
+    width: 198px;
+    font-size: 27px;
+    background-color: #FF7400;
+    z-index: -3;
+    top: 100%;
+    left: 0;
+    padding-left: 606px;
+}
+.dropdown:hover .bo3list{
+    display: block;
+}
+.bo4list{
+    display: none;
+    position: absolute;
+    width: 198px;
+    font-size: 27px;
+    background-color: #FF7400;
+    z-index: -4;
+    top: 100%;
+    left: 0;
+    padding-left: 808px;
+}
+.dropdown:hover .bo4list{
+    display: block;
+}
+.bocwlist{
+    display: none;
+    position: absolute;
+    width: 198px;
+    font-size: 27px;
+    background-color: #FF7400;
+    z-index: -5;
+    top: 100%;
+    left: 0;
+    padding-left: 1010px;
+}
+.dropdown:hover .bocwlist{
+    display: block;
+}
+.bo6list{
+    display: none;
+    position: absolute;
+    width: 198px;
+    font-size: 27px;
+    background-color: #FF7400;
+    z-index: -6;
+    top: 100%;
+    left: 0;
+    padding-left: 1204px;
+}
+.dropdown:hover .bo6list{
+    display: block;
+}
 
 
     
