@@ -1,0 +1,68 @@
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.wawdrop{
+    background-color: #FF7400;
+    color: white;
+    font-size: 40px;
+    border: none;
+    width: 198px;
+    height: 88px;
+}
+.wawlist{
+    display: none;
+    position: absolute;
+    width: 198px;
+    height: 88px;
+    font-size: 27px;
+    z-index: 1;
+}
+.wawlist a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
+    background-color: #FF7400;
+}
+
+.dropdown:hover .wawlist{
+    display: block;
+    
+}
+.bo1drop{
+    background-color: #FF7400;
+    color: white;
+    font-size: 40px;
+    border: none;
+    width: 198px;
+    height: 88px;
+}
+.bo1list{
+    display: none;
+    position: absolute;
+    width: 198px;
+    font-size: 27px;
+    background-color: #FF7400;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+.bo1list a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
+    background-color: #FF7400;
+}
+.dropdown:hover .bo1list{
+    display: block;
+}
+
+
+
+    
+
