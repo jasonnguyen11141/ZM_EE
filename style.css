@@ -1,6 +1,10 @@
 
+:root{
+    --main-background-color: #1B1A1A
+}
 body{
-    background: #1B1A1A;
+    background: var(--main-background-color);
+    text-decoration: none;
 }
 h1{
     text-align: center;
@@ -25,9 +29,10 @@ h1{
     display: none;
     position: absolute;
     width: 198px;
-    height: 88px;
+    height: auto;
     font-size: 27px;
     z-index: 1;
+    align-items: center;
     
 }
 .wawdrop a, .bo1drop a, .bo2drop a, .bo3drop a, .bo4drop a, .bocwdrop a, .bo6drop a{
